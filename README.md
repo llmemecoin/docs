@@ -43,7 +43,7 @@ LLMemecoin is an AI-driven memecoin project built around Large Language Models (
 
 ---
 ## **Architecture
-![Architecture Overview](./images/architecture-diagram.png)
+![Architecture Overview](./llmemecoin.png)
 ---
 
 ## **Core Principles**
