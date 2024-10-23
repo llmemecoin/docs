@@ -25,7 +25,6 @@ LLMemecoin is an AI-driven memecoin project built around Large Language Models (
    - **Burn Events:** The AI schedules and manages periodic burn events to ensure the memecoin stays deflationary.
    - **Airdrop Coordination:** The system organizes community-driven airdrops, allocating tokens based on predefined rules set by the community and executed autonomously.
    - **Fund Management:** The AI agent manages the allocation of tokens within the dev wallet, ensuring transparency and governance by the community.
-
 ---
 
 ## **Workflow**
@@ -43,6 +42,33 @@ LLMemecoin is an AI-driven memecoin project built around Large Language Models (
 
 ---
 ## **Architecture
+
+### **1. Providers:**
+   - **Twitter**
+   - **Search Engines**
+   - **TikTok**
+   - **Pump.fun**
+   - These platforms are used to detect new trends and serve as interfaces for memecoin deployment and social engagement.
+
+### **2. Agents:**
+
+#### **LLM Creator:**
+   - **Input:** Receives new trends from the providers.
+   - **Function:** Creates narratives for the meme based on the trends detected.
+   - **Output:** Provides the ticker, name, and description to the LLM Dev and sends the narrative of the meme to CT Degens.
+
+#### **LLM Dev:**
+   - **Input:** Receives the ticker, name, and description from the LLM Creator and community whispers from CT Degens.
+   - **Function:** Creates the landing page on GitHub, deploys the memecoin on Pump.fun, and creates social media channels on Twitter/TikTok.
+
+#### **LLM Community Manager:**
+   - **Function:** Manages and creates content for the community, based on whispers received from CT Degens.
+
+### **3. CT Degens:**
+   - **Function:** Provides feedback, behavior training, and community whispers (such as burn, airdrop, and dev wallet management).
+   - **Interaction:** Receives the narrative from the LLM Creator and sends community whispers to the LLM Community Manager.
+
+
 ![Architecture Overview](./llmemecoin.png)
 ---
 
