@@ -27,21 +27,7 @@ LLMemecoin is an AI-driven memecoin project built around Large Language Models (
    - **Fund Management:** The AI agent manages the allocation of tokens within the dev wallet, ensuring transparency and governance by the community.
 ---
 
-## **Workflow**
-
-1. **Phase 1: Idea Collection and AI Training**
-   - **Objective:** Gather ideas and suggestions from the community using the structured input process. Each participant can submit up to 5 requests.
-   - **LLM Training:** The system adapts and learns from these inputs, refining the memecoin concept based on CT degen feedback.
-   
-2. **Phase 2: AI-Driven Coin Launch on PumpFun**
-   - **Objective:** The AI agent, trained through community input, autonomously launches the memecoin on PumpFun.
-   - **Autonomous Operations:** After launch, the AI will manage the development, handle token burns, coordinate airdrops, and ensure the overall management of the token.
-
-3. **Phase 3: Post-Launch Development (Classified)**
-   - **Objective:** Details of Phase 3 will be revealed post-launch, but it will play a critical role in the next phase of the memecoin’s development.
-
----
-## **Architecture
+## **Detailed Architecture
 
 ### **1. Providers:**
    - **Twitter**
@@ -70,6 +56,22 @@ LLMemecoin is an AI-driven memecoin project built around Large Language Models (
 
 
 ![Architecture Overview](./llmemecoin.png)
+---
+
+
+## **Workflow**
+
+1. **Phase 1: Idea Collection and AI Training**
+   - **Objective:** Gather ideas and suggestions from the community using the structured input process. Each participant can submit up to 5 requests.
+   - **LLM Training:** The system adapts and learns from these inputs, refining the memecoin concept based on CT degen feedback.
+   
+2. **Phase 2: AI-Driven Coin Launch on PumpFun**
+   - **Objective:** The AI agent, trained through community input, autonomously launches the memecoin on PumpFun.
+   - **Autonomous Operations:** After launch, the AI will manage the development, handle token burns, coordinate airdrops, and ensure the overall management of the token.
+
+3. **Phase 3: Post-Launch Development (Classified)**
+   - **Objective:** Details of Phase 3 will be revealed post-launch, but it will play a critical role in the next phase of the memecoin’s development.
+
 ---
 
 ## **Core Principles**
