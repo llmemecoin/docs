@@ -27,7 +27,7 @@ LLMemecoin is an AI-driven memecoin project built around Large Language Models (
    - **Fund Management:** The AI agent manages the allocation of tokens within the dev wallet, ensuring transparency and governance by the community.
 ---
 
-## **Detailed Architecture
+## **Detailed Architecture**
 
 ### **1. Providers:**
    - **Twitter**
