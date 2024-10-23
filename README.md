@@ -42,6 +42,9 @@ LLMemecoin is an AI-driven memecoin project built around Large Language Models (
    - **Objective:** Details of Phase 3 will be revealed post-launch, but it will play a critical role in the next phase of the memecoin’s development.
 
 ---
+## **Architecture
+![Architecture Overview](./images/architecture-diagram.png)
+---
 
 ## **Core Principles**
 
